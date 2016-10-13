@@ -39,7 +39,7 @@ function jsStalkerGet(json) {
 	 */
 	if (stalker.proxies) {
 		$.ajax({
-			url: 'http://4gods.nl/~nik/proxyblock.php',
+			url: 'http://www.shroomery.org/ythan/proxyblock.php',
 			type: 'GET',
 			data: {
 				ip: json.geoplugin_request,
